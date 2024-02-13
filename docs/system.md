@@ -1,0 +1,5 @@
+## 3 Inventario
+
+Para satisfacer las demandas, el tendero debe mantener una cantidad del producto a mano, y siempre que el inventario a mano se vuelve bajo, se ordenan unidades adicionales al distribuidor. El tendero utiliza una política de pedido llamada (s, S); es decir, siempre que el inventario a mano es menor que s y no hay un pedido pendiente, entonces se ordena una cantidad para llevarlo hasta S, donde $s<S$. Es decir, si el nivel de inventario actual es x y no hay un pedido pendiente, entonces si $x<s$ se ordena la cantidad S−x.
+El costo de pedir y unidades del producto es una función especificada c(y), y toma L unidades de tiempo hasta que se entrega el pedido, con el pago realizado a la entrega. Además, la tienda paga un costo de mantenimiento de inventario de h por unidad de artículo por unidad de tiempo.
+Supongamos además que siempre que un cliente demanda más del producto de lo que está disponible actualmente, entonces se vende la cantidad a mano y el resto del pedido se pierde para la tienda.
