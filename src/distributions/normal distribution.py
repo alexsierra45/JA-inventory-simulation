@@ -1,5 +1,5 @@
 import numpy as np
-from distribution import Distribution
+from .distribution import Distribution
 
 class NormalDistribution(Distribution):
     def __init__(self, mean, std_dev):

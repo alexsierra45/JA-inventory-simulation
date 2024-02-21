@@ -1,5 +1,5 @@
 from random import random
-from distribution import Distribution
+from .distribution import Distribution
 
 class ExponentialDistribution(Distribution):
     def __init__(self, rate):
